@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "devland.js": "^1.4.1",
+    "fs": "^0.0.1-security"
+  }
+}
