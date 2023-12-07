@@ -10,7 +10,15 @@ const client = new Discord.Client({
 
     connect: true,
 
-    token: config.token
+    token: config.token,
+
+    presence: {
+        activities: [{
+            name: "devland.js",
+            type: 5,
+                }],
+        status: 'idle'
+            }
 })
 
 this.commands = new Store()
